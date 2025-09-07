@@ -2,7 +2,7 @@
 //!
 //! One module directly accesses or modifies the private internal data of another
 //!
-/// Problem
+//! Problem
 #[derive(Default)]
 pub struct Storage {
     view_count: usize,
