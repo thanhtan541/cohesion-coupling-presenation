@@ -3,7 +3,7 @@
 //! A type of cohesion where elements within a module are grouped together
 //! because they operate on the same central piece of data or data structure
 //!
-//! Problem
+//! Good cohesion
 
 mod customer {
     // The central data structure.
