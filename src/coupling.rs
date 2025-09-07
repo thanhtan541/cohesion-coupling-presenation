@@ -4,7 +4,8 @@
 //! The low coupling will be laid at the top and go down
 
 #[rustfmt::skip]
-mod control_coupling; // ..
+mod stamp_coupling;
 mod common_coupling; // ..
 mod content_coupling;
+mod control_coupling; // ..
 mod external_coupling; // .. // Low
