@@ -12,7 +12,7 @@ mod data_loader {
     #[derive(Deserialize, Debug)]
     pub struct Record {
         pub id: u32,
-        pub value: f64,
+        pub data: f64,
     }
 
     pub fn load_data(file_path: &str) -> Result<Vec<Record>, csv::Error> {

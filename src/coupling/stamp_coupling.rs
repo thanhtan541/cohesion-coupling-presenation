@@ -57,7 +57,7 @@ mod telemetry_v2 {
 // Module now takes only the specific data it needs.
 mod notification_v2 {
     // The function is now decoupled from the internal structure of CustomerProfile.
-    pub fn send_telemetry(log_id: &str) {
+    pub fn send_telemetry(log_ids: [&str]) {
         println!("Sending record with {} id", log_id);
     }
 }

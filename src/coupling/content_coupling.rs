@@ -23,12 +23,16 @@ impl Reportable for Storage {
     fn view_count(self) -> usize {
         self.view_count
     }
+    fn modify_count(&mut self) {
+        self.view_count = 1
+    }
 }
 
 /// Solution
 /// (D)ependency Inversion Principle in SOLID
 pub trait Reportable {
     fn view_count(self) -> usize;
+    fn modify_count(&mut self);
 }
 
 #[cfg(test)]

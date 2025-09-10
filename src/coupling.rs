@@ -12,9 +12,9 @@ mod control_coupling;
 mod external_coupling;
 mod stamp_coupling; // Low
 //
-// mod data_coupling; // High
+// mod data_coupling; // Ok
 // mod stamp_coupling;
 // mod control_coupling;
 // mod external_coupling;
 // mod common_coupling;
-// mod content_coupling; // Low
+// mod content_coupling; // Worst

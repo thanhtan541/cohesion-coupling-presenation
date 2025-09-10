@@ -6,7 +6,7 @@
 //!
 //! Good coupling!
 
-mod shop {
+mod basket {
     // A composite data structure.
     pub struct Product {
         pub id: u64,

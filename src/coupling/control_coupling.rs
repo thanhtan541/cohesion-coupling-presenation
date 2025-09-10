@@ -10,11 +10,17 @@ mod formatter {
     pub enum Format {
         PlainText,
         Html,
+        Xml,
     }
 
     pub fn format_data(data: String, format: Format) -> String {
         match format {
             Format::PlainText => {
+                // Formatting for plain text
+                println!("Formatting as plain text.");
+                data
+            }
+            Format::Xml => {
                 // Formatting for plain text
                 println!("Formatting as plain text.");
                 data
