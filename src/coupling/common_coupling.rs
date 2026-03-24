@@ -3,6 +3,9 @@
 //! Common coupling occurs when two or more modules share access to the same global, mutable state
 //!
 //! Problem
+//!
+//! Todo: update this example - not really related
+//! use counter
 
 use std::sync::{Arc, Mutex};
 #[cfg(test)]

@@ -11,6 +11,7 @@ mod formatter {
         PlainText,
         Html,
         Xml,
+        Yaml,
     }
 
     pub fn format_data(data: String, format: Format) -> String {

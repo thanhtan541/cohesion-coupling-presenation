@@ -5,6 +5,7 @@
 //!
 //! Problem
 
+// lib_a
 mod data_loader {
     use serde::Deserialize;
     use std::fs::File;
@@ -27,6 +28,7 @@ mod data_loader {
     }
 }
 
+// lib_b depend on lib_a
 mod data_processor {
     use super::data_loader::Record;
 
